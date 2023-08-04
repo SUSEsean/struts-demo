@@ -1,7 +1,7 @@
 # Struts Remote Code Execution Demo
 Modified scripts that demonstrate remote code execution (RCE) vi command injection into HTML traffic on old version of Apache Tomcat.   
 The yaml file will deploy vulnerable container running struts super-app via apache tomcat ver 8.5.29 java website.
-The image is pulled via `https://hub.docker.com/repository/docker/skywalke34/struts`
+The image is pulled via `https://hub.docker.com/repository/docker/seanrickerd/struts`
 
 ## To deploy the container via yaml file to kubernetes cluster:
 `kubectl create namespace struts`
