@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: struts
-        image: skywalke34/struts
+        image: seanrickerd/struts
         ports:
         - containerPort: 8080
 
